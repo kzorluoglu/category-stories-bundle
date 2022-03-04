@@ -1,6 +1,11 @@
 <?php
-namespace Kzorluoglu\CategoryStoriesBundle\Bridge\Chameleon\Mapper;
+namespace kzorluoglu\CategoryStoriesBundle\Bridge\Chameleon\Mapper;
 
+
+use AbstractViewMapper;
+use IMapperCacheTriggerRestricted;
+use IMapperRequirementsRestricted;
+use IMapperVisitorRestricted;
 
 class CategoryStoriesMapper extends AbstractViewMapper
 {
@@ -17,4 +22,5 @@ class CategoryStoriesMapper extends AbstractViewMapper
     ) {
         // TODO: Implement Accept() method.
     }
+
 }

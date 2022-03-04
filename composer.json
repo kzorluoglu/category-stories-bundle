@@ -18,7 +18,7 @@
         }
     ],
     "extra": {
-        "name": "REST API Bundle",
+        "name": "Category Stories Bundle",
         "dev_info_installation": "",
         "dev_info_usage": "",
         "pricegroup": 0,
@@ -38,6 +38,7 @@
         "ext-pdo": "*"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-latest",
         "phpunit/phpunit": "^9.5"
     }
 }
