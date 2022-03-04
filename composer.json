@@ -1,0 +1,43 @@
+{
+    "name": "kzorluoglu/category-stories-bundle",
+    "type": "symfony-bundle",
+    "description": "A Symfony bundle for Chameleon System",
+    "keywords": [
+        "rest",
+        "api",
+        "bundle",
+        "Symfony"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Koray Zorluoglu",
+            "email": "koray.zorluoglu@esono.de",
+            "homepage": "https://www.esono.de",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "name": "REST API Bundle",
+        "dev_info_installation": "",
+        "dev_info_usage": "",
+        "pricegroup": 0,
+        "public": false,
+        "screenshotfolder_id": ""
+    },
+    "autoload": {
+        "psr-4": {
+            "kzorluoglu\\CategoryStoriesBundle\\": [
+                ""
+            ]
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "chameleon-system/chameleon-base": "7.1.x@dev",
+        "ext-pdo": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
